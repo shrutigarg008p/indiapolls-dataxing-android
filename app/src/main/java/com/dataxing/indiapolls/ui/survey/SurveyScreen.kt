@@ -129,7 +129,7 @@ fun SurveyScreen(
                     ) {
                         if (dashboardMessage.isNotEmpty()) {
                             Text(
-                                text = dashboardMessage.split(".")[0],
+                                text = dashboardMessage.split(".")[0].trimEnd(),
                                 style = defaultMediumTextView.copy(color = Color(android.graphics.Color.parseColor(dashboardMessageColorCode))),
                                 modifier = Modifier
                                     .fillMaxWidth()
@@ -154,7 +154,7 @@ fun SurveyScreen(
                                     )
                             )
                             Text(
-                                text = dashboardMessage.split(".")[1],
+                                text = dashboardMessage.split(".")[1].trimStart(),
                                 style = defaultMediumTextView.copy(color = Color(android.graphics.Color.parseColor("#8fce00"))),
                                 modifier = Modifier
                                     .fillMaxWidth()
