@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_header">संपर्क में आने के लिए साइन इन करें</string>
+    <string name="prompt_your_email">अपना ईमेल पता दर्ज करें</string>
+    <string name="prompt_password">पासवर्ड दर्ज करें</string>
+    <string name="prompt_your_mobile_number">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="prompt_confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="forgot_password_register">पासवर्ड भूल गए?</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="or">या</string>
+    <string name="login_with_otp">ओटीपी से  लॉग इन करें</string>
+    <string name="connect_with_facebook">फेसबुक से कनेक्ट करें</string>
+    <string name="do_not_have_an_account">कोई खाता नहीं है?\u0020</string>
+    <string name="sign_up">पंजीकरण करें</string>
+
+    <string name="register_header">पंजीकरण करें</string>
+    <string name="register_sub_header">कृपया जारी रखने के लिए निम्नलिखित जानकारी प्रदान करें</string>
+    <string name="signing_up_terms">मै उपयोग की <a href="https://panel.indiapolls.com/#/terms-hi">शर्तें</a> और IndiaPolls से ईमेल संदेश प्राप्त करने के लिए सहमत हूं तथा मै <a href="https://panel.indiapolls.com/#/privacy-policy-hi">गोपनीयता नीतिं</a> स्वीकार करता हू।</string>
+    <string name="prompt_first_name">पहला नाम</string>
+    <string name="prompt_last_name">उपनाम</string>
+    <string name="prompt_mobile">मोबाइल नंबर</string>
+    <string name="gender">लिंग</string>
+    <string name="prompt_date_of_birth">जन्म की तारीख</string>
+    <string name="next">अगला</string>
+    <string name="address1">पता पंक्ति 1</string>
+    <string name="address2">पता पंक्ति 2</string>
+    <string name="country">देश</string>
+    <string name="state">राज्य</string>
+    <string name="city_or_post_office">शहर</string>
+    <string name="select_referral">एक रेफरल का चयन करें</string>
+    <string name="pin_code">पिन कोड</string>
+    <string name="submit">जमा करें</string>
+    <string name="otp_verification_help_text">कृपया आपको भेजे गए ओटीपी को सत्यापित करें</string>
+    <string name="resend_code">पुन: कोड भेजे?</string>
+    <string name="verify_otp">ओटीपी सत्यापित करें</string>
+    <string name="thank_you_for_completion">पूरा करने के लिए धन्यवाद!</string>
+    <string name="complete">पूर्ण करे</string>
+
+    <string name="my_surveys">मेरे सर्वेक्षण</string>
+    <string name="my_dashboard">मेरा डैशबोर्ड</string>
+    <string name="my_rewards">मेरे पुरस्कार</string>
+    <string name="my_profiles">मेरे प्रोफाइल</string>
+    <string name="contact_us">संपर्क करें</string>
+    <string name="refer_a_friend">एक मित्र को संदर्भित करें</string>
+
+    <string name="logout">लॉग आउट</string>
+
+    <string name="redeem_points">पाइंट भुनाएं</string>
+
+    <string name="not_started">शुरू नहीं हुआ</string>
+    <string name="update">अपडेट करे</string>
+
+    <string name="query">सवाल</string>
+    <string name="subject">विषय</string>
+    <string name="body">शरीर</string>
+
+    <string name="live_survey">लाइव सर्वेक्षण</string>
+    <string name="new_text">नया</string>
+    <string name="take_survey">सर्वेक्षण करें</string>
+    <string name="take_a_survey">एक सर्वेक्षण लें</string>
+    <string name="survey">सर्वेक्षण</string>
+
+    <string name="my_profile">मेरी प्रोफाइल</string>
+    <string name="verify_mobile">मोबाइल सत्यापित करें</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="unsubscribe_email">ईमेल अनसब्सक्राइब करें</string>
+    <string name="delete_account">खाता हटाएँ</string>
+
+    <string name="prompt_enter_name">नाम दर्ज करें</string>
+    <string name="prompt_enter_email">ईमेल दर्ज करें</string>
+    <string name="prompt_enter_mobile">मोबाइल दर्ज करें</string>
+    <string name="refer">संदर्भित करें</string>
+
+    <string name="min">मिनट</string>
+
+    <string name="select_option">विकल्प चुनें</string>
+
+    <string name="forgot_password">पासवर्ड भूल गए</string>
+    <string name="prompt_current_password">वर्तमान पासवर्ड</string>
+    <string name="prompt_new_password">नया पासवर्ड</string>
+    <string name="prompt_confirm_new_password">नए पासवर्ड की पुष्टि करें</string>
+
+    <string name="default_notification_channel_id" translatable="false">india_polls_channel_id</string>
+
+    <string name="permission_dialog_title">अनुमति</string>
+    <string name="notification_permission_dialog_message">कृपया सेटिंग से अपनी अनुमतियाँ बदलें.</string>
+    <string name="Okay">ठीक है</string>
+
+    <string name="points">पाइंट</string>
+    <string name="description">विवरण</string>
+    <string name="select_mode">प्रकार का चयन करेंं</string>
+
+    <string name="select_image_dialog_title">इमेज  चुने</string>
+    <string name="select_date">तारीख़ चुनें</string>
+
+    <string name="invalid_otp">ओटीपी मान्य नहीं</string>
+    <string name="invalid_email">ईमेल मान्य नहीं</string>
+    <string name="invalid_mobile_number">मोबाइल नंबर मान्य नहीं</string>
+    <string name="invalid_password">पासवर्ड मान्य नहीं</string>
+    <string name="invalid_confirm_password">पुष्टि पासवर्ड मान्य नहीं है</string>
+    <string name="invalid_terms_and_conditions">कृपया नियम एवं शर्तें चुनें</string>
+
+    <string name="invalid_name">नाम मान्य नहीं</string>
+    <string name="invalid_first_name">पहला नाम मान्य नहीं</string>
+    <string name="invalid_last_name">उपनाम मान्य नहीं</string>
+    <string name="invalid_gender">कृपया एक लिंग चुनें</string>
+    <string name="invalid_date_of_birth">जन्मतिथि मान्य नहीं</string>
+    <string name="invalid_address">पता मान्य नहीं</string>
+    <string name="invalid_pin_code">पिन कोड मान्य नहीं</string>
+    <string name="invalid_country">देश मान्य नहीं</string>
+    <string name="invalid_state">राज्य मान्य नहीं</string>
+    <string name="invalid_city">शहर/डाक कोड  मान्य नहीं</string>
+    <string name="invalid_referral_code">रेफरल कोड  मान्य नहीं</string>
+    <string name="invalid_points">पाइंट मान्य नहीं</string>
+    <string name="invalid_mode">मोड मान्य नहीं</string>
+    <string name="invalid_query">सवाल मान्य नहीं</string>
+    <string name="invalid_subject">विषय मान्य नहीं</string>
+
+    <string name="faq">पूछे जाने वाले प्रश्न</string>
+    <string name="faq_link">https://panel.indiapolls.com/#/faq-hi</string>
+
+    <string name="image_path_error">छवि पथ प्राप्त करने में विफल</string>
+
+    <string name="live_survey_not_available">कोई लाइव सर्वेक्षण उपलब्ध नहीं है, कृपया बाद में पुनः प्रयास करें</string>
+</resources>

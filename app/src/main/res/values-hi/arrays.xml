@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_gender">
+        <item id="male">पुरुष</item>
+        <item id="female">महिला</item>
+        <item id="other">अन्य</item>
+    </string-array>
+
+    <string-array name="select_image_array">
+        <item id="open_camera">कैमरा खोलें</item>
+        <item id="open_gallery">गैलरी खोलें</item>
+    </string-array>
+
+    <string-array name="select_query_array">
+        <item id="general">सामान्य</item>
+        <item id="rewards_related">पुरस्कार से संबंधित</item>
+        <item id="surveys_related">सर्वेक्षण से संबंधित</item>
+    </string-array>
+
+    <string-array name="select_referral_array">
+        <item id="ad_flier_newspaper">अखबार में विज्ञापन</item>
+        <item id="ad_flier_other">बाज़ार/बाहर में विज्ञापन</item>
+        <item id="ad_on_website">एक वेबसाइट पर विज्ञापन देखा</item>
+        <item id="blog_forum">किसी ब्लॉग/फ़ोरम पर इसके बारे में पढ़ा है</item>
+        <item id="cafe_coffee_day">कैफ़े कॉफ़ी डे पर विज्ञापन</item>
+        <item id="email_from_friend">किसी मित्र/सहकर्मी से ईमेल मिला</item>
+        <item id="email_from_web_portal">वेब पोर्टल/सेवा/जॉबसाइट से ईमेल</item>
+        <item id="searched_on_google_com">गूगल.कॉम पर खोजा गया</item>
+        <item id="other">अन्य</item>
+        <item id="searched_on_another_search_engine">किसी अन्य खोज इंजन पर खोजा गया</item>
+        <item id="ad_at_a_shop_restaurant">दुकान/रेस्तरां में विज्ञापन</item>
+        <item id="word_of_mouth_from_friend_colleague">मित्र/सहकर्मी से सुना</item>
+    </string-array>
+</resources>

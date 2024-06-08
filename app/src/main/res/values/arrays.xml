@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_gender">
+        <item id="male">Male</item>
+        <item id="female">Female</item>
+        <item id="other">Other</item>
+    </string-array>
+
+    <string-array name="select_image_array">
+        <item id="open_camera">Open camera</item>
+        <item id="open_gallery">Open gallery</item>
+    </string-array>
+
+    <string-array name="select_query_array">
+        <item id="general">General</item>
+        <item id="rewards_related">Rewards Related</item>
+        <item id="surveys_related">Surveys Related</item>
+    </string-array>
+
+    <string-array name="select_referral_array">
+        <item id="ad_flier_newspaper">Ad flier with newspaper</item>
+        <item id="ad_flier_other">Ad flier at market/outdoors</item>
+        <item id="ad_on_website">Saw an ad on a website</item>
+        <item id="blog_forum">Read about it on a blog/forum</item>
+        <item id="cafe_coffee_day">Ad at Café Coffee Day</item>
+        <item id="email_from_friend">Got an email from a friend/colleague</item>
+        <item id="email_from_web_portal">Email from a web portal/service/jobsite</item>
+        <item id="searched_on_google_com">Searched on google.com</item>
+        <item id="other">Other</item>
+        <item id="searched_on_another_search_engine">Searched on another search engine</item>
+        <item id="ad_at_a_shop_restaurant">Ad at a shop/restaurant</item>
+        <item id="word_of_mouth_from_friend_colleague">Word of mouth from friend/colleague</item>
+    </string-array>
+</resources>
+

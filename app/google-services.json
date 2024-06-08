@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102475378100",
+    "project_id": "indiapolls-a9288",
+    "storage_bucket": "indiapolls-a9288.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102475378100:android:c1e646fe11e9b2705e96e1",
+        "android_client_info": {
+          "package_name": "com.dataxing.indiapolls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102475378100-i009se0dk60cj04l0j0i40ng8d8oeere.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOAHPImtfHEvJDqW0tGFYUwAy-qiFi__U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102475378100-i009se0dk60cj04l0j0i40ng8d8oeere.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

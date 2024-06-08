@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">IndiaPolls</string>
+    <string name="default_notification_channel_id" translatable="false">india_polls_channel_id</string>
+    <string name="facebook_app_id" translatable="false">1064370811314168</string>
+    <string name="facebook_client_token" translatable="false">9181e7244dfa4b86dcce074954f49884</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1064370811314168</string>
+</resources>

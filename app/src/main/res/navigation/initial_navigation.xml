@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/initial_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.dataxing.indiapolls.ui.login.LoginFragment"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_verifyOtpFragment"
+            app:destination="@id/verifyOtpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_loginWithOtpFragment"
+            app:destination="@id/loginWithOtpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.dataxing.indiapolls.ui.register.RegisterFragment"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_verifyOtpFragment2"
+            app:destination="@id/verifyOtpFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.dataxing.indiapolls.ui.home.HomeActivity"
+        android:label="app_bar_home"
+        tools:layout="@layout/app_bar_home" />
+    <activity
+        android:id="@+id/onBoardingActivity"
+        android:name="com.dataxing.indiapolls.ui.onboarding.OnBoardingActivity"
+        android:label="activity_on_boarding"
+        tools:layout="@layout/activity_on_boarding" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.dataxing.indiapolls.ui.password.forgot.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/verifyOtpFragment"
+        android:name="com.dataxing.indiapolls.ui.otp.VerifyOtpFragment"
+        android:label="fragment_verify_otp"
+        tools:layout="@layout/fragment_verify_otp" >
+        <action
+            android:id="@+id/action_verifyOtpFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <argument
+            android:name="otpArgs"
+            app:argType=".ui.otp.OtpArgs"/>
+    </fragment>
+    <fragment
+        android:id="@+id/loginWithOtpFragment"
+        android:name="com.dataxing.indiapolls.ui.login.otp.LoginWithOtpFragment"
+        android:label="LoginWithOtpFragment"
+        tools:layout="@layout/fragment_login_with_otp" >
+        <action
+            android:id="@+id/action_loginWithOtpFragment_to_verifyOtpFragment"
+            app:destination="@id/verifyOtpFragment" />
+    </fragment>
+</navigation>

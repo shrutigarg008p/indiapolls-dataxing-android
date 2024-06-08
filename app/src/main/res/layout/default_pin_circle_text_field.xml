@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.poovam.pinedittextfield.CirclePinField xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    app:noOfFields="4"
+    android:textSize="16sp"
+    android:textSelectHandle="@drawable/text_handle"
+    android:textColor="@color/text_primary"
+    app:distanceInBetween="24dp"
+    app:circleRadius="28dp"
+    app:fillerRadius="4dp"
+    app:fillerColor="@color/text_primary"
+    app:fieldBgColor="@android:color/white"
+    app:highlightColor="@color/text_primary"/>

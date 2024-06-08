@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@+id/nav_survey">
+
+    <fragment
+        android:id="@+id/nav_survey"
+        android:name="com.dataxing.indiapolls.ui.survey.SurveyFragment"
+        android:label="@string/my_surveys"
+        tools:layout="@layout/fragment_survey" >
+        <action
+            android:id="@+id/action_nav_survey_to_webFragment"
+            app:destination="@id/webFragment">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.dataxing.indiapolls.ui.dashboard.DashboardFragment"
+        android:label="@string/my_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_profiles"
+        android:name="com.dataxing.indiapolls.ui.profiles.ProfilesFragment"
+        android:label="@string/my_profiles"
+        tools:layout="@layout/fragment_profiles" >
+        <action
+            android:id="@+id/action_nav_profiles_to_profilesSurveyFragment"
+            app:destination="@id/profilesSurveyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.dataxing.indiapolls.ui.reward.RewardFragment"
+        android:label="@string/my_rewards"
+        tools:layout="@layout/fragment_reward" >
+        <action
+            android:id="@+id/action_nav_rewards_to_redeemPointsFragment"
+            app:destination="@id/redeemPointsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.dataxing.indiapolls.ui.support.ContactUsFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/nav_refer_a_friend"
+        android:name="com.dataxing.indiapolls.ui.refer.ReferralFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_referral" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.dataxing.indiapolls.ui.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.dataxing.indiapolls.ui.profile.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_verifyOtp"
+            app:destination="@id/verifyOtp" />
+        <action
+            android:id="@+id/action_profileFragment_to_changePassword"
+            app:destination="@id/changePassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyOtp"
+        android:name="com.dataxing.indiapolls.ui.otp.VerifyOtpFragment"
+        android:label="verifyOtp"
+        tools:layout="@layout/fragment_verify_otp">
+        <argument
+            android:name="otpArgs"
+            app:argType=".ui.otp.OtpArgs"/>
+    </fragment>
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.dataxing.indiapolls.ui.web.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web">
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilesSurveyFragment"
+        android:name="com.dataxing.indiapolls.ui.profiles.survey.ProfilesSurveyFragment"
+        android:label="ProfilesSurveyFragment"
+        tools:layout="@layout/fragment_survey_profiles">
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePassword"
+        android:name="com.dataxing.indiapolls.ui.password.change.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/redeemPointsFragment"
+        android:name="com.dataxing.indiapolls.ui.reward.redeem.RedeemPointsFragment"
+        android:label="RedeemPointsFragment"
+        tools:layout="@layout/fragment_redeem_points"/>
+</navigation>

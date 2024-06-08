@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboard_navigation"
+    app:startDestination="@id/onBoardingRegisterFragment">
+    <fragment
+        android:id="@+id/onBoardingRegisterFragment"
+        android:name="com.dataxing.indiapolls.ui.onboarding.register.OnBoardingBasicInformationFragment"
+        tools:layout="@layout/fragment_on_boarding_basic_information">
+        <action
+            android:id="@+id/action_onBoardingRegisterFragment_to_onBoardingAddressFragment"
+            app:destination="@id/onBoardingAddressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingAddressFragment"
+        android:name="com.dataxing.indiapolls.ui.onboarding.register.OnBoardingAddressFragment"
+        tools:layout="@layout/fragment_on_boarding_address">
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity3"
+        android:name="com.dataxing.indiapolls.ui.home.HomeActivity"
+        android:label="app_bar_home"
+        tools:layout="@layout/app_bar_home" />
+</navigation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/ic_survey"
+            android:title="@string/my_surveys" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/my_dashboard" />
+        <item
+            android:id="@+id/nav_profiles"
+            android:icon="@drawable/ic_profiles"
+            android:title="@string/my_profiles" />
+        <item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/ic_reward"
+            android:title="@string/my_rewards" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_contact_us"
+            android:title="@string/contact_us" />
+        <item
+            android:id="@+id/nav_refer_a_friend"
+            android:icon="@drawable/ic_refer_a_friend"
+            android:title="@string/refer_a_friend" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq"
+            android:title="@string/faq" />
+    </group>
+</menu>

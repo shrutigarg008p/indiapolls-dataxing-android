@@ -1,0 +1,123 @@
+<resources>
+    <string name="login_header">Sign in to get in touch</string>
+    <string name="prompt_your_email">Enter your email address</string>
+    <string name="prompt_password">Enter password</string>
+    <string name="prompt_your_mobile_number">Enter your mobile number</string>
+    <string name="prompt_confirm_password">Enter confirm password</string>
+    <string name="forgot_password_register">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="login_with_otp">Login with OTP</string>
+    <string name="connect_with_facebook">Connect with facebook</string>
+    <string name="do_not_have_an_account">Do not have an account?\u0020</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="register_header">Register</string>
+    <string name="register_sub_header">Please provide following information to continue</string>
+    <string name="signing_up_terms">I agree to the <a href="https://test.indiapolls.com/#/terms">Terms</a> of Use and to receive email messages from IndiaPolls, and I accept the <a href="https://panel.indiapolls.com/#/privacy-policy">Privacy Policy</a></string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_mobile">Mobile</string>
+    <string name="gender">Gender</string>
+    <string name="prompt_date_of_birth">Date of birth</string>
+    <string name="next">Next</string>
+    <string name="address1">Address 1</string>
+    <string name="address2">Address 2</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city_or_post_office">City/Post Office</string>
+    <string name="select_referral">Select Referral</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="submit">Submit</string>
+    <string name="otp_verification_help_text">Please verify one time password sent to you</string>
+    <string name="resend_code">Resend Code?</string>
+    <string name="verify_otp">Verify OTP</string>
+
+    <string name="thank_you_for_completion">Thank you for completion!</string>
+    <string name="complete">Complete</string>
+
+    <string name="my_surveys">My Surveys</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="my_profiles">My Profiles</string>
+    <string name="contact_us">Contact us</string>
+    <string name="refer_a_friend">Refer a friend</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="redeem_points">Redeem points</string>
+
+    <string name="not_started">Not started</string>
+    <string name="update">Update</string>
+
+    <string name="query">Query</string>
+    <string name="subject">Subject</string>
+    <string name="body">Body</string>
+
+    <string name="live_survey">Live survey</string>
+    <string name="new_text">New</string>
+    <string name="take_survey">Take survey</string>
+    <string name="take_a_survey">Take a survey</string>
+    <string name="survey">Survey</string>
+
+    <string name="my_profile">My Profile</string>
+    <string name="verify_mobile">Verify Mobile</string>
+    <string name="change_password">Change Password</string>
+    <string name="unsubscribe_email">Unsubscribe Email</string>
+    <string name="delete_account">Delete Account</string>
+
+    <string name="prompt_enter_name">Enter name</string>
+    <string name="prompt_enter_email">Enter email</string>
+    <string name="prompt_enter_mobile">Enter mobile</string>
+    <string name="refer">Refer</string>
+
+    <string name="min">min</string>
+
+    <string name="select_option">Select option</string>
+
+    <string name="forgot_password">Forgot Password</string>
+    <string name="prompt_current_password">Current password</string>
+    <string name="prompt_new_password">New password</string>
+    <string name="prompt_confirm_new_password">Confirm new password</string>
+
+    <string name="permission_dialog_title">Permission</string>
+    <string name="notification_permission_dialog_message">Please Change your permissions from setting.</string>
+    <string name="Okay">Okay</string>
+
+    <string name="points">Points</string>
+    <string name="description">Description</string>
+    <string name="select_mode">Select mode</string>
+
+    <string name="select_image_dialog_title">Select image</string>
+    <string name="select_date">Select date</string>
+
+    <string name="invalid_otp">Not a valid OTP</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_mobile_number">Not a valid mobile number</string>
+    <string name="invalid_password">Not a valid password</string>
+    <string name="invalid_confirm_password">Not a valid confirm password</string>
+    <string name="invalid_terms_and_conditions">Please select terms and conditions</string>
+
+    <string name="invalid_name">Not a valid name</string>
+    <string name="invalid_first_name">Not a valid first name</string>
+    <string name="invalid_last_name">Not a valid last name</string>
+    <string name="invalid_gender">Please select a gender</string>
+    <string name="invalid_date_of_birth">Not a valid date of birth</string>
+    <string name="invalid_address">Not a valid address</string>
+    <string name="invalid_pin_code">Not a valid pin code</string>
+    <string name="invalid_country">Please select a country</string>
+    <string name="invalid_state">Please select a state</string>
+    <string name="invalid_city">Please select a city/postal code</string>
+    <string name="invalid_referral_code">Please select a referral code</string>
+    <string name="invalid_points">Not a valid point</string>
+    <string name="invalid_mode">Please select a mode</string>
+    <string name="invalid_query">Please select a query</string>
+    <string name="invalid_subject">Not a valid subject</string>
+
+    <string name="faq">FAQ</string>
+    <string name="faq_link">https://panel.indiapolls.com/#/faq</string>
+
+    <string name="image_path_error">Failed to get image path</string>
+
+    <string name="live_survey_not_available">No live survey available, Please try again later.</string>
+</resources>
