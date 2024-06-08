@@ -22,6 +22,7 @@ class SurveyViewModel(private val userPreferencesRepository: UserPreferencesRepo
     val result: StateFlow<Result<List<SurveyItemView>>> = _result.asStateFlow()
 
     private val profilePendingMessageColorCode = "#FF0000"
+    private val profileHelpColorCode = "#8fce00"
 
     private val _dashboardMessageUiState = MutableStateFlow<Result<DashboardMessageUiState>>(Result.initialized())
     val dashboardMessageUiState: StateFlow<Result<DashboardMessageUiState>> = _dashboardMessageUiState.asStateFlow()

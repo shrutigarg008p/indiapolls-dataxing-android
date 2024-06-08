@@ -129,8 +129,33 @@ fun SurveyScreen(
                     ) {
                         if (dashboardMessage.isNotEmpty()) {
                             Text(
-                                text = dashboardMessage,
+                                text = dashboardMessage.split(".")[0],
                                 style = defaultMediumTextView.copy(color = Color(android.graphics.Color.parseColor(dashboardMessageColorCode))),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(bottom = 16.dp)
+                                    .clickable(
+                                        indication = null,
+                                        interactionSource = remember { MutableInteractionSource() },
+                                        onClick = {
+                                            val isProfilePending =
+                                                viewModel.dashboardMessageUiState.value.dataOrNull()?.isProfilePending
+                                                    ?: false
+
+                                            val homeActivity = activity as? HomeActivity
+                                            homeActivity?.let {
+                                                if (isProfilePending) {
+                                                    homeActivity.setNavViewCheckedItem(R.id.nav_profiles)
+                                                } else {
+                                                    homeActivity.setNavViewCheckedItem(R.id.nav_rewards)
+                                                }
+                                            }
+                                        }
+                                    )
+                            )
+                            Text(
+                                text = dashboardMessage.split(".")[1],
+                                style = defaultMediumTextView.copy(color = Color(android.graphics.Color.parseColor("#8fce00"))),
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .padding(bottom = 16.dp)
