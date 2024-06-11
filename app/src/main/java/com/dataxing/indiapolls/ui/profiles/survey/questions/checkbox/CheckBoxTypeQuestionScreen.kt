@@ -1,6 +1,8 @@
 package com.dataxing.indiapolls.ui.profiles.survey.questions.checkbox
 
 import android.annotation.SuppressLint
+import android.widget.Toast
+import androidx.collection.emptyLongSet
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,6 +19,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -59,7 +62,10 @@ fun CheckBoxTypeQuestionScreen(item: SurveyQuestionItemView, onCheckedChange: (B
                     ) {
                         itemsIndexed(item.options) { _, item ->
                             CheckBoxTypeQuestionItem(item) {
-                                onCheckedChange(it)
+
+                                    onCheckedChange(it)
+
+
                             }
                         }
                     }
@@ -72,18 +78,19 @@ fun CheckBoxTypeQuestionScreen(item: SurveyQuestionItemView, onCheckedChange: (B
 @Composable
 fun CheckBoxTypeQuestionItem(item: OptionItemView, onCheckedChange: (Boolean) -> Unit) {
     var checked by remember { mutableStateOf(item.isSelected) }
-
+    // Initialize states for the child checkboxes
+    val optionCheckedStates = remember { mutableStateListOf(false, false, false) }
     Row(
         modifier = Modifier
             .padding(vertical = 4.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
+
         Checkbox(
             checked = checked,
             onCheckedChange = {
                 checked = it
                 item.isSelected = it
-                onCheckedChange(it)
             },
             colors = CheckboxDefaults.colors(checkedColor = primary),
             modifier = Modifier.padding(end = 8.dp)
@@ -93,4 +100,17 @@ fun CheckBoxTypeQuestionItem(item: OptionItemView, onCheckedChange: (Boolean) ->
             style = defaultMediumTextView
         )
     }
+
+
+
+    Text(
+        if(checked)
+            if (item.hint=="MA")
+                "Clear Other checkboxes"
+            else
+                ""
+        else
+            ""
+
+    )
 }
